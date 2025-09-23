@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'jorys/merlin',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '9cf75eca112b16a6665e0b3330de371b178310f7',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'jorys/merlin' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '9cf75eca112b16a6665e0b3330de371b178310f7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'jugid/staurie' => array(
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'reference' => 'c516c47a9c89a58f97a4cf94553d3275500180f9',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../jugid/staurie',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'symfony/finder' => array(
+            'pretty_version' => 'v6.4.24',
+            'version' => '6.4.24.0',
+            'reference' => '73089124388c8510efb8d2d1689285d285937b08',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/finder',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
