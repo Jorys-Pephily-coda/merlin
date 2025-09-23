@@ -11,6 +11,10 @@ class ComposerStaticInita6617f5563c12f666bb61cf370b37557
         array (
             'Symfony\\Component\\Finder\\' => 25,
         ),
+        'M' => 
+        array (
+            'Mon\\Namespace\\Maps\\' => 19,
+        ),
         'J' => 
         array (
             'Jugid\\Staurie\\Example\\' => 22,
@@ -23,6 +27,10 @@ class ComposerStaticInita6617f5563c12f666bb61cf370b37557
         'Symfony\\Component\\Finder\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/finder',
+        ),
+        'Mon\\Namespace\\Maps\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/maps',
         ),
         'Jugid\\Staurie\\Example\\' => 
         array (

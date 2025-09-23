@@ -6,7 +6,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Jorys\\Merlin\\": "src/"
+            "Jorys\\Merlin\\": "src/",
+            "Mon\\Namespace\\Maps\\": "src/maps/"
+
         }
     },
     "authors": [
