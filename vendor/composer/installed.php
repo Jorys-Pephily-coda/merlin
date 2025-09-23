@@ -3,7 +3,7 @@
         'name' => 'jorys/merlin',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '9cf75eca112b16a6665e0b3330de371b178310f7',
+        'reference' => 'cf48c4210c6840ea520c7a641d0ee5a4d86e94a6',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'jorys/merlin' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '9cf75eca112b16a6665e0b3330de371b178310f7',
+            'reference' => 'cf48c4210c6840ea520c7a641d0ee5a4d86e94a6',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
