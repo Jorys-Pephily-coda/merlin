@@ -1,0 +1,17 @@
+{
+    "name": "jorys/merlin",
+    "description": "MUD",
+    "require": {
+        "jugid/staurie": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jorys\\Merlin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorys Pehily, Victor Havard, Remi Renard, Paul Perchard"
+        }
+    ]
+}
