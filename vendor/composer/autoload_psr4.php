@@ -7,7 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Symfony\\Component\\Finder\\' => array($vendorDir . '/symfony/finder'),
-    'Jugid\\Staurie\\Example\\' => array($vendorDir . '/jugid/staurie/example'),
-    'Jugid\\Staurie\\' => array($vendorDir . '/jugid/staurie/src'),
-    'Jorys\\Merlin\\' => array($baseDir . '/src'),
+    'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
+    'Jugid\\Staurie\\Example\\' => array($baseDir . '/example'),
+    'Jugid\\Staurie\\' => array($baseDir . '/src'),
+    'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
+    'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
 );

@@ -1,17 +1,24 @@
 {
-    "name": "jorys/merlin",
-    "description": "MUD",
-    "require": {
-        "jugid/staurie": "^1.3"
+    "name": "jugid/staurie",
+    "description": "Create your own story",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Jorys\\Merlin\\": "src/"
+            "Jugid\\Staurie\\": "src/",
+            "Jugid\\Staurie\\Example\\": "example/"
         }
     },
     "authors": [
         {
-            "name": "Jorys Pehily, Victor Havard, Remi Renard, Paul Perchard"
+            "name": "Jugid",
+            "email": "gidjulien@gmail.com"
         }
-    ]
+    ],
+    "require": {
+        "symfony/finder": "^6.0"
+    }
 }
