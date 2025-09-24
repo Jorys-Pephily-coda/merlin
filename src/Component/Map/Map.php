@@ -165,6 +165,7 @@ class Map extends AbstractComponent {
         $previousPosition = clone $this->current_position;
         $go_function = 'go'. ucfirst($direction);
         $this->current_position->$go_function();
+        $this->view();
 
         if(null === $this->getBlueprint($this->current_position)) {
             $pp->writeLn('Something prevents you to go to the '.$direction, null, 'red');
@@ -175,6 +176,7 @@ class Map extends AbstractComponent {
     protected function map() : void {
         $mapPrinter = $this->container->get('printer','MapPrinter');
         $mapPrinter->print();
+        $this->view();
     }
 
     public function teleport(Position $position) : void {

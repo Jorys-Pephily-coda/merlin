@@ -8,6 +8,8 @@ class MoveFunction extends AbstractConsoleFunction {
 
     public function action(array $args) : void {
         $this->getContainer()->dispatcher()->dispatch('map.move', ['direction'=>$args[0]]);
+        $this->getContainer()->dispatcher()->dispatch('map');
+        
     }
 
     public function name() : string {
