@@ -8,8 +8,10 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Jugid\\Staurie\\": "src/",
-            "Jugid\\Staurie\\Example\\": "example/"
+            "Merlin\\": "src/",
+            "Merlin\\Example\\": "example/",
+            "Merlin\\Escalibur\\": "Escalibur/"
+
         }
     },
     "authors": [

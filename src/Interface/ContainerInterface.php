@@ -1,6 +1,6 @@
 <?php
 
-namespace Jugid\Staurie\Interface;
+namespace Merlin\Interface;
 
 interface ContainerInterface {
     public function gets(string $type) : array;

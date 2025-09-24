@@ -1,10 +1,10 @@
 <?php
 
-namespace Jugid\Staurie\Component\PrettyPrinter;
+namespace Merlin\Component\PrettyPrinter;
 
 use InvalidArgumentException;
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\Console\Console;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\Console\Console;
 
 class PrettyPrinter extends AbstractComponent {
 

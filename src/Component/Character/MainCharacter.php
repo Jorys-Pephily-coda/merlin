@@ -1,21 +1,21 @@
 <?php
 
-namespace Jugid\Staurie\Component\Character;
+namespace Merlin\Component\Character;
 
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\Character\CoreFunctions\EquipFunction;
-use Jugid\Staurie\Component\Character\CoreFunctions\FightFunction;
-use Jugid\Staurie\Component\Character\CoreFunctions\MainCharacterFunction;
-use Jugid\Staurie\Component\Character\CoreFunctions\SpeakFunction;
-use Jugid\Staurie\Component\Character\CoreFunctions\StatsFunction;
-use Jugid\Staurie\Component\Character\CoreFunctions\UnequipFunction;
-use Jugid\Staurie\Component\Inventory\Inventory;
-use Jugid\Staurie\Component\Level\Level;
-use Jugid\Staurie\Component\Map\Map;
-use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
-use Jugid\Staurie\Game\Item_Equippable;
-use Jugid\Staurie\Game\Npc;
-use Jugid\Staurie\Game\Position\Position;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\Character\CoreFunctions\EquipFunction;
+use Merlin\Component\Character\CoreFunctions\FightFunction;
+use Merlin\Component\Character\CoreFunctions\MainCharacterFunction;
+use Merlin\Component\Character\CoreFunctions\SpeakFunction;
+use Merlin\Component\Character\CoreFunctions\StatsFunction;
+use Merlin\Component\Character\CoreFunctions\UnequipFunction;
+use Merlin\Component\Inventory\Inventory;
+use Merlin\Component\Level\Level;
+use Merlin\Component\Map\Map;
+use Merlin\Component\PrettyPrinter\PrettyPrinter;
+use Merlin\Game\Item_Equippable;
+use Merlin\Game\Npc;
+use Merlin\Game\Position\Position;
 use LogicException;
 
 class MainCharacter extends AbstractComponent {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Jugid\Staurie\Component\Save;
+namespace Merlin\Component\Save;
 
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\Console\Console;
-use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
-use Jugid\Staurie\Component\Save\CoreFunctions\SaveFunction;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\Console\Console;
+use Merlin\Component\PrettyPrinter\PrettyPrinter;
+use Merlin\Component\Save\CoreFunctions\SaveFunction;
 
 class Save extends AbstractComponent {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Jugid\Staurie;
+namespace Merlin;
 
 use ErrorException;
 

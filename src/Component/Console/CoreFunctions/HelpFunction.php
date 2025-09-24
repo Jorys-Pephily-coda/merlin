@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Component\Console\CoreFunctions;
+namespace Merlin\Component\Console\CoreFunctions;
 
-use Jugid\Staurie\Component\Console\AbstractConsoleFunction;
+use Merlin\Component\Console\AbstractConsoleFunction;
 
 class HelpFunction extends AbstractConsoleFunction {
 

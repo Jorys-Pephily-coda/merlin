@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Component\Inventory\CoreFunctions;
+namespace Merlin\Component\Inventory\CoreFunctions;
 
-use Jugid\Staurie\Component\Console\AbstractConsoleFunction;
+use Merlin\Component\Console\AbstractConsoleFunction;
 
 class DropFunction extends AbstractConsoleFunction {
 

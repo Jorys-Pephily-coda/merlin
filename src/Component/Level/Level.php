@@ -1,10 +1,10 @@
 <?php
 
-namespace Jugid\Staurie\Component\Level;
+namespace Merlin\Component\Level;
 
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\Character\MainCharacter;
-use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\Character\MainCharacter;
+use Merlin\Component\PrettyPrinter\PrettyPrinter;
 
 class Level extends AbstractComponent {
 

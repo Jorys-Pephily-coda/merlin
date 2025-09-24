@@ -1,11 +1,11 @@
 <?php
 
-namespace Jugid\Staurie\Game;
+namespace Merlin\Game;
 
-use Jugid\Staurie\Container;
-use Jugid\Staurie\Interface\Containerable;
-use Jugid\Staurie\Interface\Describable;
-use Jugid\Staurie\Interface\Speakable;
+use Merlin\Container;
+use Merlin\Interface\Containerable;
+use Merlin\Interface\Describable;
+use Merlin\Interface\Speakable;
 
 abstract class Npc implements Containerable, Describable, Speakable {
     protected Container $container;

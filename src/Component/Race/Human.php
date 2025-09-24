@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Component\Race;
+namespace Merlin\Component\Race;
 
-use Jugid\Staurie\Component\Character\Statistics;
+use Merlin\Component\Character\Statistics;
 
 class Human extends AbstractRace {
 

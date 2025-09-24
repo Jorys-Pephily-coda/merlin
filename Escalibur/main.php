@@ -45,7 +45,7 @@ $character->configuration([
 $map = $container->registerComponent(Map::class);
 $map->configuration([
     'directory'=>__DIR__.'/Maps',
-    'namespace'=>'Merlin\Example\Maps', 
+    'namespace'=>'Merlin\Escalibur\Maps', 
     'navigation'=>true,
     'map_enable'=>true,
     'compass_enable'=>true

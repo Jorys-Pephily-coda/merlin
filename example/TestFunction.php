@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Example;
+namespace Merlin\Example;
 
-use Jugid\Staurie\Component\Console\AbstractConsoleFunction;
+use Merlin\Component\Console\AbstractConsoleFunction;
 
 class TestFunction extends AbstractConsoleFunction {
 

@@ -1,15 +1,15 @@
 <?php
 
-namespace Jugid\Staurie\Component\Map;
+namespace Merlin\Component\Map;
 
-use Jugid\Staurie\Container;
-use Jugid\Staurie\Game\Item;
-use Jugid\Staurie\Game\Monster;
-use Jugid\Staurie\Game\Npc;
-use Jugid\Staurie\Interface\Containerable;
-use Jugid\Staurie\Interface\Describable;
-use Jugid\Staurie\Interface\Initializable;
-use Jugid\Staurie\Interface\Positionnable;
+use Merlin\Container;
+use Merlin\Game\Item;
+use Merlin\Game\Monster;
+use Merlin\Game\Npc;
+use Merlin\Interface\Containerable;
+use Merlin\Interface\Describable;
+use Merlin\Interface\Initializable;
+use Merlin\Interface\Positionnable;
 
 abstract class Blueprint implements Containerable, Initializable, Describable, Positionnable {
 

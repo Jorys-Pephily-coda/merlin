@@ -1,12 +1,12 @@
 <?php
 
-namespace Jugid\Staurie\Component\Console;
+namespace Merlin\Component\Console;
 
 use InvalidArgumentException;
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\Console\CoreFunctions\DebugFunction;
-use Jugid\Staurie\Component\Console\CoreFunctions\ExitFunction;
-use Jugid\Staurie\Component\Console\CoreFunctions\HelpFunction;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\Console\CoreFunctions\DebugFunction;
+use Merlin\Component\Console\CoreFunctions\ExitFunction;
+use Merlin\Component\Console\CoreFunctions\HelpFunction;
 
 class Console extends AbstractComponent {
 

@@ -1,17 +1,17 @@
 <?php
 
-namespace Jugid\Staurie;
+namespace Merlin;
 
 use InvalidArgumentException;
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\Character\MainCharacter;
-use Jugid\Staurie\Component\Console\Console;
-use Jugid\Staurie\Component\Inventory\Inventory;
-use Jugid\Staurie\Component\Map\Map;
-use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
-use Jugid\Staurie\GameState;
-use Jugid\Staurie\Interface\Containerable;
-use Jugid\Staurie\Interface\ContainerInterface;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\Character\MainCharacter;
+use Merlin\Component\Console\Console;
+use Merlin\Component\Inventory\Inventory;
+use Merlin\Component\Map\Map;
+use Merlin\Component\PrettyPrinter\PrettyPrinter;
+use Merlin\GameState;
+use Merlin\Interface\Containerable;
+use Merlin\Interface\ContainerInterface;
 
 class Container implements ContainerInterface {
 

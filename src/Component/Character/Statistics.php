@@ -1,6 +1,6 @@
 <?php
 
-namespace Jugid\Staurie\Component\Character;
+namespace Merlin\Component\Character;
 
 use LogicException;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Component\Map\CoreFunctions;
+namespace Merlin\Component\Map\CoreFunctions;
 
-use Jugid\Staurie\Component\Console\AbstractConsoleFunction;
+use Merlin\Component\Console\AbstractConsoleFunction;
 
 class ViewFunction extends AbstractConsoleFunction {
 

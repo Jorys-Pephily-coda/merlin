@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Component\Money\CoreFunctions;
+namespace Merlin\Component\Money\CoreFunctions;
 
-use Jugid\Staurie\Component\Console\AbstractConsoleFunction;
+use Merlin\Component\Console\AbstractConsoleFunction;
 
 class MoneyFunction extends AbstractConsoleFunction {
 

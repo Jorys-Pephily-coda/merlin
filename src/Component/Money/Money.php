@@ -1,11 +1,11 @@
 <?php
 
-namespace Jugid\Staurie\Component\Money;
+namespace Merlin\Component\Money;
 
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\Console\Console;
-use Jugid\Staurie\Component\Money\CoreFunctions\MoneyFunction;
-use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\Console\Console;
+use Merlin\Component\Money\CoreFunctions\MoneyFunction;
+use Merlin\Component\PrettyPrinter\PrettyPrinter;
 
 class Money extends AbstractComponent {
 

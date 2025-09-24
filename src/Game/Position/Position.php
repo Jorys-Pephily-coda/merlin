@@ -1,6 +1,6 @@
 <?php
 
-namespace Jugid\Staurie\Game\Position;
+namespace Merlin\Game\Position;
 
 class Position {
 

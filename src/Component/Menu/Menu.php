@@ -1,10 +1,10 @@
 <?php
 
-namespace Jugid\Staurie\Component\Menu;
+namespace Merlin\Component\Menu;
 
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\Console\Console;
-use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\Console\Console;
+use Merlin\Component\PrettyPrinter\PrettyPrinter;
 use LogicException;
 
 class Menu extends AbstractComponent {

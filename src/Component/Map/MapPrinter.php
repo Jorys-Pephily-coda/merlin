@@ -1,12 +1,12 @@
 <?php
 
-namespace Jugid\Staurie\Component\Map;
+namespace Merlin\Component\Map;
 
-use Jugid\Staurie\Container;
-use Jugid\Staurie\Game\Position\Position;
-use Jugid\Staurie\Game\Position\PositionCalculator;
-use Jugid\Staurie\Interface\Containerable;
-use Jugid\Staurie\Interface\Printer;
+use Merlin\Container;
+use Merlin\Game\Position\Position;
+use Merlin\Game\Position\PositionCalculator;
+use Merlin\Interface\Containerable;
+use Merlin\Interface\Printer;
 use LogicException;
 
 /**

@@ -1,12 +1,12 @@
 <?php
 
-namespace Jugid\Staurie\Game;
+namespace Merlin\Game;
 
-use Jugid\Staurie\Container;
-use Jugid\Staurie\Interface\Containerable;
-use Jugid\Staurie\Interface\Describable;
-use Jugid\Staurie\Interface\Fightable;
-use Jugid\Staurie\Interface\Nameable;
+use Merlin\Container;
+use Merlin\Interface\Containerable;
+use Merlin\Interface\Describable;
+use Merlin\Interface\Fightable;
+use Merlin\Interface\Nameable;
 
 abstract class Monster implements Containerable, Describable {
 

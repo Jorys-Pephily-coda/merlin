@@ -1,9 +1,9 @@
 <?php
 
-namespace Jugid\Staurie\Component\Introduction;
+namespace Merlin\Component\Introduction;
 
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\PrettyPrinter\PrettyPrinter;
 
 class Introduction extends AbstractComponent {
 

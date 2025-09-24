@@ -1,6 +1,6 @@
 <?php
 
-namespace Jugid\Staurie\Interface;
+namespace Merlin\Interface;
 
 interface ListenerInterface {
     public function notify(string $event, array $arguments);

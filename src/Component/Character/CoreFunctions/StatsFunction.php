@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Component\Character\CoreFunctions;
+namespace Merlin\Component\Character\CoreFunctions;
 
-use Jugid\Staurie\Component\Console\AbstractConsoleFunction;
+use Merlin\Component\Console\AbstractConsoleFunction;
 
 class StatsFunction extends AbstractConsoleFunction {
 

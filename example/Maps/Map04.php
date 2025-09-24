@@ -1,11 +1,11 @@
 <?php
 
-namespace Jugid\Staurie\Example\Maps;
+namespace Merlin\Example\Maps;
 
-use Jugid\Staurie\Component\Map\Blueprint;
-use Jugid\Staurie\Example\Items\Shield;
-use Jugid\Staurie\Example\Monsters\Bouftou;
-use Jugid\Staurie\Game\Position\Position;
+use Merlin\Component\Map\Blueprint;
+use Merlin\Example\Items\Shield;
+use Merlin\Example\Monsters\Bouftou;
+use Merlin\Game\Position\Position;
 
 class Map04 extends Blueprint {
 

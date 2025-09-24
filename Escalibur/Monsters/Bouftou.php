@@ -1,6 +1,6 @@
 <?php
 
-namespace Merlin\Example\Monsters;
+namespace Merlin\Escalibur\Monsters;
 
 use Merlin\Game\Monster;
 

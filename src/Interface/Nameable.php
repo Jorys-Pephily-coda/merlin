@@ -1,6 +1,6 @@
 <?php
 
-namespace Jugid\Staurie\Interface;
+namespace Merlin\Interface;
 
 interface Nameable {
     public function name() : string;

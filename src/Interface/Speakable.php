@@ -1,6 +1,6 @@
 <?php
 
-namespace Jugid\Staurie\Interface;
+namespace Merlin\Interface;
 
 interface Speakable {
     public function speak() : string|array;

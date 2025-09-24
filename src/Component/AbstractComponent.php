@@ -1,12 +1,12 @@
 <?php
 
-namespace Jugid\Staurie\Component;
+namespace Merlin\Component;
 
-use Jugid\Staurie\Container;
-use Jugid\Staurie\Interface\Configurable;
-use Jugid\Staurie\Interface\Containerable;
-use Jugid\Staurie\Interface\Initializable;
-use Jugid\Staurie\Interface\ListenerInterface;
+use Merlin\Container;
+use Merlin\Interface\Configurable;
+use Merlin\Interface\Containerable;
+use Merlin\Interface\Initializable;
+use Merlin\Interface\ListenerInterface;
 
 abstract class AbstractComponent implements ListenerInterface, Containerable, Configurable, Initializable {
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Jugid\Staurie\Component\Race;
+namespace Merlin\Component\Race;
 
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\Character\Statistics;
-use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\Character\Statistics;
+use Merlin\Component\PrettyPrinter\PrettyPrinter;
 use LogicException;
 
 class Race extends AbstractComponent {

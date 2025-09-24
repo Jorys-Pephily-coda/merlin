@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Interface;
+namespace Merlin\Interface;
 
-use Jugid\Staurie\Container;
+use Merlin\Container;
 
 /**
  * Used when the element should be stored in the Container

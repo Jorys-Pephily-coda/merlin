@@ -1,11 +1,11 @@
 <?php
 
-namespace Jugid\Staurie\Game;
+namespace Merlin\Game;
 
-use Jugid\Staurie\Interface\Configurable;
-use Jugid\Staurie\Interface\Describable;
-use Jugid\Staurie\Interface\Initializable;
-use Jugid\Staurie\Interface\Nameable;
+use Merlin\Interface\Configurable;
+use Merlin\Interface\Describable;
+use Merlin\Interface\Initializable;
+use Merlin\Interface\Nameable;
 
 abstract class Item implements Nameable, Describable, Initializable {
 

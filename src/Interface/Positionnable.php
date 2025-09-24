@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Interface;
+namespace Merlin\Interface;
 
-use Jugid\Staurie\Game\Position\Position;
+use Merlin\Game\Position\Position;
 
 interface Positionnable {
     public function position() : Position;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Example\Items;
+namespace Merlin\Example\Items;
 
-use Jugid\Staurie\Game\Item_Equippable;
+use Merlin\Game\Item_Equippable;
 
 class Sword extends Item_Equippable {
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace Jugid\Staurie\Component\Race;
+namespace Merlin\Component\Race;
 
-use Jugid\Staurie\Component\Character\Statistics;
-use Jugid\Staurie\Interface\Describable;
-use Jugid\Staurie\Interface\Nameable;
+use Merlin\Component\Character\Statistics;
+use Merlin\Interface\Describable;
+use Merlin\Interface\Nameable;
 
 abstract class AbstractRace implements Nameable, Describable{
     abstract public function statistics() : Statistics;

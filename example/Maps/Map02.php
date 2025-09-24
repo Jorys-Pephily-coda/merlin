@@ -1,9 +1,9 @@
 <?php
 
-namespace Jugid\Staurie\Example\Maps;
+namespace Merlin\Example\Maps;
 
-use Jugid\Staurie\Component\Map\Blueprint;
-use Jugid\Staurie\Game\Position\Position;
+use Merlin\Component\Map\Blueprint;
+use Merlin\Game\Position\Position;
 
 class Map02 extends Blueprint {
 

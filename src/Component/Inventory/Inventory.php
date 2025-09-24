@@ -1,16 +1,16 @@
 <?php
 
-namespace Jugid\Staurie\Component\Inventory;
+namespace Merlin\Component\Inventory;
 
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\Character\MainCharacter;
-use Jugid\Staurie\Component\Console\Console;
-use Jugid\Staurie\Component\Inventory\CoreFunctions\DropFunction;
-use Jugid\Staurie\Component\Inventory\CoreFunctions\InventoryFunction;
-use Jugid\Staurie\Component\Inventory\CoreFunctions\TakeFunction;
-use Jugid\Staurie\Component\Map\Map;
-use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
-use Jugid\Staurie\Game\Item;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\Character\MainCharacter;
+use Merlin\Component\Console\Console;
+use Merlin\Component\Inventory\CoreFunctions\DropFunction;
+use Merlin\Component\Inventory\CoreFunctions\InventoryFunction;
+use Merlin\Component\Inventory\CoreFunctions\TakeFunction;
+use Merlin\Component\Map\Map;
+use Merlin\Component\PrettyPrinter\PrettyPrinter;
+use Merlin\Game\Item;
 
 class Inventory extends AbstractComponent {
 

@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Jugid\Staurie\Example\Maps;
+namespace Merlin\Example\Maps;
 
-use Jugid\Staurie\Component\Map\Blueprint;
-use Jugid\Staurie\Game\Position\Position;
-use Jugid\Staurie\Example\Npcs\Cain;
-use Jugid\Staurie\Example\Items\Sword;
-use Jugid\Staurie\Example\Monsters\Bouftou;
+use Merlin\Component\Map\Blueprint;
+use Merlin\Game\Position\Position;
+use Merlin\Example\Npcs\Cain;
+use Merlin\Example\Items\Sword;
+use Merlin\Example\Monsters\Bouftou;
 
 class Map01 extends Blueprint {
 

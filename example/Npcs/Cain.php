@@ -1,9 +1,9 @@
 <?php
 
-namespace Jugid\Staurie\Example\Npcs;
+namespace Merlin\Example\Npcs;
 
-use Jugid\Staurie\Example\Items\Shield;
-use Jugid\Staurie\Game\Npc;
+use Merlin\Example\Items\Shield;
+use Merlin\Game\Npc;
 
 class Cain extends Npc {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie;
+namespace Merlin;
 
-use Jugid\Staurie\Interface\ListenerInterface;
+use Merlin\Interface\ListenerInterface;
 
 class EventDispatcher {
     

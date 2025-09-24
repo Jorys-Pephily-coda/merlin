@@ -1,19 +1,19 @@
 <?php
 
-namespace Jugid\Staurie\Component\Map;
+namespace Merlin\Component\Map;
 
 use LogicException;
-use Jugid\Staurie\Game\Position\Position;
+use Merlin\Game\Position\Position;
 use Symfony\Component\Finder\Finder;
-use Jugid\Staurie\Component\AbstractComponent;
-use Jugid\Staurie\Component\Map\CoreFunctions\MoveFunction;
-use Jugid\Staurie\Component\Map\CoreFunctions\CompassFunction;
-use Jugid\Staurie\Component\Map\CoreFunctions\MapFunction;
-use Jugid\Staurie\Component\Map\CoreFunctions\ViewFunction;
-use Jugid\Staurie\Component\PrettyPrinter\PrettyPrinter;
-use Jugid\Staurie\Game\Item;
-use Jugid\Staurie\Game\Monster;
-use Jugid\Staurie\Game\Npc;
+use Merlin\Component\AbstractComponent;
+use Merlin\Component\Map\CoreFunctions\MoveFunction;
+use Merlin\Component\Map\CoreFunctions\CompassFunction;
+use Merlin\Component\Map\CoreFunctions\MapFunction;
+use Merlin\Component\Map\CoreFunctions\ViewFunction;
+use Merlin\Component\PrettyPrinter\PrettyPrinter;
+use Merlin\Game\Item;
+use Merlin\Game\Monster;
+use Merlin\Game\Npc;
 
 class Map extends AbstractComponent {
 

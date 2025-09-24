@@ -1,10 +1,10 @@
 <?php
 
-namespace Jugid\Staurie\Component\Console;
+namespace Merlin\Component\Console;
 
-use Jugid\Staurie\Container;
-use Jugid\Staurie\Interface\Containerable;
-use Jugid\Staurie\Interface\Describable;
+use Merlin\Container;
+use Merlin\Interface\Containerable;
+use Merlin\Interface\Describable;
 
 abstract class AbstractConsoleFunction implements Containerable, Describable {
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Component\Save\CoreFunctions;
+namespace Merlin\Component\Save\CoreFunctions;
 
-use Jugid\Staurie\Component\Console\AbstractConsoleFunction;
+use Merlin\Component\Console\AbstractConsoleFunction;
 
 class SaveFunction extends AbstractConsoleFunction {
 

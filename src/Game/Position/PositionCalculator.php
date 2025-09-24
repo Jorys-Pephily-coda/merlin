@@ -1,8 +1,8 @@
 <?php
 
-namespace Jugid\Staurie\Game\Position;
+namespace Merlin\Game\Position;
 
-use Jugid\Staurie\Component\Map\Blueprint;
+use Merlin\Component\Map\Blueprint;
 
 class PositionCalculator {
 

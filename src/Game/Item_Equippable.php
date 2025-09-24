@@ -1,6 +1,6 @@
 <?php
 
-namespace Jugid\Staurie\Game;
+namespace Merlin\Game;
 
 abstract class Item_Equippable extends Item {
 
