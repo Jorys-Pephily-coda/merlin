@@ -12,5 +12,5 @@ class Caverne extends Blueprint {
     public function monsters(): array { return []; }
     public function name(): string { return "Caverne du Dragon Rouge"; }
     public function description(): string { return "Une antre sombre où dort (ou veille ?) un dragon légendaire."; }
-    public function position(): Position { return new Position(10,10); }
+    public function position(): Position { return new Position(3,3); }
 }

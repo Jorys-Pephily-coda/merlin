@@ -10,7 +10,7 @@ use Merlin\Escalibur\Monsters\Bouftou;
 use Merlin\Escalibur\Monsters\Dragon;
 use Merlin\Escalibur\Items\Grimoire;
 
-class Map1 extends Blueprint {
+class Kamelot extends Blueprint {
 
     public function npcs(): array { return [new VielHomme()]; }
     public function items(): array { return [new Epée(), new Grimoire()]; }
