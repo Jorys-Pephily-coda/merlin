@@ -19,7 +19,7 @@ class Minotoror extends Monster {
     }
 
     public function health_points(): int {
-        return 120;
+        return 70;
     }
 
     public function defense(): int {
