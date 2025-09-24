@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInitba5ec84094dfc16280eeae8be791501c
 {
     public static $files = array (
-        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -154,6 +154,7 @@ class ComposerStaticInitba5ec84094dfc16280eeae8be791501c
         'Merlin\\Escalibur\\Monsters\\Prespic' => __DIR__ . '/../..' . '/Escalibur/Monsters/Prespic.php',
         'Merlin\\Escalibur\\Monsters\\Scarafeuille' => __DIR__ . '/../..' . '/Escalibur/Monsters/Scarafeuille.php',
         'Merlin\\Escalibur\\Npcs\\VielHomme' => __DIR__ . '/../..' . '/Escalibur/Npcs/VielHomme.php',
+        'Merlin\\Escalibur\\Npcs\\Viviane' => __DIR__ . '/../..' . '/Escalibur/Npcs/Viviane.php',
         'Merlin\\EventDispatcher' => __DIR__ . '/../..' . '/src/EventDispatcher.php',
         'Merlin\\GameState' => __DIR__ . '/../..' . '/src/GameState.php',
         'Merlin\\Game\\Item' => __DIR__ . '/../..' . '/src/Game/Item.php',
