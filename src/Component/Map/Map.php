@@ -165,12 +165,17 @@ class Map extends AbstractComponent {
         $previousPosition = clone $this->current_position;
         $go_function = 'go'. ucfirst($direction);
         $this->current_position->$go_function();
+        print($this->current_position);
         $this->view();
 
         if(null === $this->getBlueprint($this->current_position)) {
             $pp->writeLn('Something prevents you to go to the '.$direction, null, 'red');
             $this->current_position = $previousPosition;
-        } 
+        } elseif ($this->current_position->isSame(new Position(0, 3))) {
+            $pp->writeLn('Vous tombez dans le gouffre!', null, 'red');
+            $pp->writeLn('Profitez de votre chute', null, 'red');
+            $this->container->getConsole()->run('fight gouffre');
+        }
     }
 
     protected function map() : void {
