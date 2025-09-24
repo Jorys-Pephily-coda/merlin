@@ -7,11 +7,12 @@ use Merlin\Game\Position\Position;
 use Merlin\Escalibur\Npcs\VielHomme;
 use Merlin\Escalibur\Items\Epée;
 use Merlin\Escalibur\Monsters\Bouftou;
+use Merlin\Escalibur\Items\Grimoire;
 
 class Map1 extends Blueprint {
 
     public function npcs(): array { return [new VielHomme()]; }
-    public function items(): array { return [new Epée()]; }
+    public function items(): array { return [new Epée(), new Grimoire()]; }
     public function monsters(): array { return [new Bouftou()]; }
     public function name(): string { return "royaume de bretagne"; }
     public function description(): string { return "1 chateau, 3 maisons"; }

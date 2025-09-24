@@ -77,7 +77,8 @@ class Race extends AbstractComponent {
     final public function defaultConfiguration() : array {
         return [
             'races'=>[
-                'Human' => new Human()
+                'Human' => new Human(),
+                'Magus' => new Magus()
             ]
         ];
     }
