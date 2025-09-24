@@ -23,7 +23,7 @@ class Minotoror extends Monster {
     }
 
     public function defense(): int {
-        return 15;
+        return 3;
     }
 
     public function attack(): int {
