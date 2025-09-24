@@ -12,5 +12,5 @@ class Dolmen extends Blueprint {
     public function monsters(): array { return []; }
     public function name(): string { return "Dolmen de l’Éternité"; }
     public function description(): string { return "Monument mégalithique, utilisé comme autel dans les cultes druidiques. il est eternel."; }
-    public function position(): Position { return new Position(1,2); }
+    public function position(): Position { return new Position(2,1); }
 }
