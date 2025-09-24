@@ -12,5 +12,5 @@ class Foret extends Blueprint {
     public function monsters(): array { return []; }
     public function name(): string { return "Forêt de Brocéliande"; }
     public function description(): string { return "Une forêt magique, mystérieuse, peuplée de fées et de druides."; }
-    public function position(): Position { return new Position(1,0); }
+    public function position(): Position { return new Position(2,1); }
 }

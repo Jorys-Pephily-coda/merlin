@@ -14,5 +14,5 @@ class Camelot extends Blueprint {
     public function monsters(): array { return []; }
     public function name(): string { return "Camelot"; }
     public function description(): string { return "Le château du roi Arthur, lieu central et sécurisé"; }
-    public function position(): Position { return new Position(1,1); }
+    public function position(): Position { return new Position(0,0); }
 }
