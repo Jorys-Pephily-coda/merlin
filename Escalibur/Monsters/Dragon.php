@@ -19,7 +19,7 @@ class Dragon extends Monster {
     }
 
     public function health_points(): int {
-        return 500;
+        return 300;
     }
 
     public function defense(): int {
