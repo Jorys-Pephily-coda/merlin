@@ -3,15 +3,15 @@
 namespace Merlin\Escalibur\Npcs;
 
 use Merlin\Game\Npc;
-use App\Items\Epée;
+use Merlin\Escalibur\Items\Epée;
 
 class VielHomme extends Npc {
   public function name(): string {
-    return "Vieil Homme";
+    return "VielHomme";
   }
 
   public function description(): string {
-    return "Un vieil homme assis près de la fontaine, l'air sage.";
+    return "Un viel homme assis près de la fontaine, l'air sage.";
   }
 
   public function speak(): string|array {

@@ -71,6 +71,7 @@ return array(
     'Merlin\\Component\\PrettyPrinter\\PrettyPrinter' => $baseDir . '/src/Component/PrettyPrinter/PrettyPrinter.php',
     'Merlin\\Component\\Race\\AbstractRace' => $baseDir . '/src/Component/Race/AbstractRace.php',
     'Merlin\\Component\\Race\\Human' => $baseDir . '/src/Component/Race/Human.php',
+    'Merlin\\Component\\Race\\Magus' => $baseDir . '/src/Component/Race/Magus.php',
     'Merlin\\Component\\Race\\Race' => $baseDir . '/src/Component/Race/Race.php',
     'Merlin\\Component\\Save\\CoreFunctions\\SaveFunction' => $baseDir . '/src/Component/Save/CoreFunctions/SaveFunction.php',
     'Merlin\\Component\\Save\\Save' => $baseDir . '/src/Component/Save/Save.php',

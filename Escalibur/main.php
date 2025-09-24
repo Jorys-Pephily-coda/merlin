@@ -36,7 +36,7 @@ $menu->configuration([
 
 $character = $container->registerComponent(MainCharacter::class);
 $character->configuration([
-    'ask_name' => false,
+    'ask_name' => true,
     'ask_gender' => false,
     'character_has_name' => true,
     'character_has_gender' => true,

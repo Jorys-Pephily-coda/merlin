@@ -130,6 +130,7 @@ class ComposerStaticInitba5ec84094dfc16280eeae8be791501c
         'Merlin\\Component\\PrettyPrinter\\PrettyPrinter' => __DIR__ . '/../..' . '/src/Component/PrettyPrinter/PrettyPrinter.php',
         'Merlin\\Component\\Race\\AbstractRace' => __DIR__ . '/../..' . '/src/Component/Race/AbstractRace.php',
         'Merlin\\Component\\Race\\Human' => __DIR__ . '/../..' . '/src/Component/Race/Human.php',
+        'Merlin\\Component\\Race\\Magus' => __DIR__ . '/../..' . '/src/Component/Race/Magus.php',
         'Merlin\\Component\\Race\\Race' => __DIR__ . '/../..' . '/src/Component/Race/Race.php',
         'Merlin\\Component\\Save\\CoreFunctions\\SaveFunction' => __DIR__ . '/../..' . '/src/Component/Save/CoreFunctions/SaveFunction.php',
         'Merlin\\Component\\Save\\Save' => __DIR__ . '/../..' . '/src/Component/Save/Save.php',
