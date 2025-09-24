@@ -1,3 +1,7 @@
+<?php
+
+namespace Merlin\Escalibur\Monsters;
+
 use Merlin\Game\Monster;
 
 class Piou extends Monster {

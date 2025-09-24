@@ -1,39 +1,44 @@
 <?php
 
-namespace Mon\Namespace\Monsters;
+namespace Merlin\Escalibur\Monsters;
 
-use Jugid\Staurie\Game\Monster;
+use Merlin\Game\Monster;
 
 class Dragon extends Monster {
 
-    public function name() : string {
-        return "Dragon Rouge aux yeux d'émeraude";
+    public function name(): string {
+        return 'Dragon';
     }
 
     public function description(): string {
-        return "Un dragon redoutable avec des écailles écarlates et des yeux brillants comme des émeraudes.";
+        return 'A mighty dragon with scales of fire.';
     }
 
-    public function level() : int {
-        return 10;
+    public function level(): int {
+        return 20;
     }
 
     public function health_points(): int {
-        return 200;
+        return 500;
     }
 
     public function defense(): int {
-        return 15;
+        return 40;
+    }
+
+    public function attack(): int {
+        return 70;
     }
 
     public function experience(): int {
-        return 100;
+        return 1000;
     }
 
     public function skills(): array {
         return [
-            ["name" => "Hurlement du dragon de feu", "damage" => 30],
-            ["name" => "Griffes acérées", "damage" => 20],
+            'Fire Breath' => 100,
+            'Tail Swipe' => 60,
+            'Wing Storm' => 80,
         ];
     }
 }

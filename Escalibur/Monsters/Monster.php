@@ -1,10 +1,11 @@
 <?php
 
-namespace Mon\Namespace\Monsters;
+namespace Merlin\Escalibur\Monsters;
 
-use Jugid\Staurie\Game\Monster;
+use Merlin\Game\Monster;
 
-class MonsterTest extends Monster {
+
+class MonsterTest extends Monster{
 
     public function name() : string {
         // TODO: retourne le nom du monstre

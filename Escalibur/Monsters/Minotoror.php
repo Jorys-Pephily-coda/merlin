@@ -1,3 +1,10 @@
+<?php
+
+namespace Merlin\Escalibur\Monsters;
+
+use Merlin\Game\Monster;
+
+
 class Minotoror extends Monster {
     public function name(): string {
         return 'Minotoror';

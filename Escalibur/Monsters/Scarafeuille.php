@@ -1,3 +1,9 @@
+<?php
+
+namespace Merlin\Escalibur\Monsters;
+
+use Merlin\Game\Monster;
+
 class Scarafeuille extends Monster {
     public function name(): string {
         return 'Scarafeuille';
