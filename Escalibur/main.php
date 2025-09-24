@@ -48,7 +48,9 @@ $map->configuration([
     'namespace'=>'Merlin\Escalibur\Maps', 
     'navigation'=>true,
     'map_enable'=>true,
-    'compass_enable'=>true
+    'compass_enable'=>true,
+    'x_start' => 1,
+    'y_start' => 1,
 ]);
 
 $introduction = $container->registerComponent(Introduction::class);
