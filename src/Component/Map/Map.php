@@ -174,7 +174,7 @@ class Map extends AbstractComponent {
         } elseif ($this->current_position->isSame(new Position(0, 3))) {
             $pp->writeLn('Vous tombez dans le gouffre!', null, 'red');
             $pp->writeLn('Profitez de votre chute', null, 'red');
-            $this->container->getConsole()->run('fight Gouffre');
+            $this->container->dispatcher()->dispatch('character.fight', ['monster' => 'Gouffre']);
         }
     }
 
