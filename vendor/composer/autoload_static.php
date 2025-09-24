@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInitba5ec84094dfc16280eeae8be791501c
 {
     public static $files = array (
-        'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -140,16 +140,18 @@ class ComposerStaticInitba5ec84094dfc16280eeae8be791501c
         'Merlin\\Escalibur\\Items\\Bouclier' => __DIR__ . '/../..' . '/Escalibur/Items/Bouclier.php',
         'Merlin\\Escalibur\\Items\\Epée' => __DIR__ . '/../..' . '/Escalibur/Items/Epée.php',
         'Merlin\\Escalibur\\Items\\Grimoire' => __DIR__ . '/../..' . '/Escalibur/Items/Grimoire.php',
+        'Merlin\\Escalibur\\Items\\Talisman' => __DIR__ . '/../..' . '/Escalibur/Items/Talisman.php',
         'Merlin\\Escalibur\\Maps\\Abbaye' => __DIR__ . '/../..' . '/Escalibur/Maps/Abbaye.php',
         'Merlin\\Escalibur\\Maps\\Camelot' => __DIR__ . '/../..' . '/Escalibur/Maps/Camelot.php',
         'Merlin\\Escalibur\\Maps\\Caverne' => __DIR__ . '/../..' . '/Escalibur/Maps/Caverne.php',
         'Merlin\\Escalibur\\Maps\\Dolmen' => __DIR__ . '/../..' . '/Escalibur/Maps/Dolmen.php',
         'Merlin\\Escalibur\\Maps\\Foret' => __DIR__ . '/../..' . '/Escalibur/Maps/Foret.php',
+        'Merlin\\Escalibur\\Maps\\Kamelot' => __DIR__ . '/../..' . '/Escalibur/Maps/Kamelot.php',
         'Merlin\\Escalibur\\Maps\\Lac' => __DIR__ . '/../..' . '/Escalibur/Maps/Lac.php',
-        'Merlin\\Escalibur\\Maps\\Map1' => __DIR__ . '/../..' . '/Escalibur/Maps/Map1.php',
         'Merlin\\Escalibur\\Monsters\\Bouftou' => __DIR__ . '/../..' . '/Escalibur/Monsters/Bouftou.php',
         'Merlin\\Escalibur\\Monsters\\Dragon' => __DIR__ . '/../..' . '/Escalibur/Monsters/Dragon.php',
         'Merlin\\Escalibur\\Monsters\\Minotoror' => __DIR__ . '/../..' . '/Escalibur/Monsters/Minotoror.php',
+        'Merlin\\Escalibur\\Monsters\\MonsterTest' => __DIR__ . '/../..' . '/Escalibur/Monsters/MonsterTest.php',
         'Merlin\\Escalibur\\Monsters\\Piou' => __DIR__ . '/../..' . '/Escalibur/Monsters/Piou.php',
         'Merlin\\Escalibur\\Monsters\\Prespic' => __DIR__ . '/../..' . '/Escalibur/Monsters/Prespic.php',
         'Merlin\\Escalibur\\Monsters\\Scarafeuille' => __DIR__ . '/../..' . '/Escalibur/Monsters/Scarafeuille.php',

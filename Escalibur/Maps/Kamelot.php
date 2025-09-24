@@ -14,7 +14,7 @@ class Kamelot extends Blueprint {
 
     public function npcs(): array { return [new VielHomme()]; }
     public function items(): array { return [new Epée(), new Grimoire()]; }
-    public function monsters(): array { return [new Bouftou(), new Dragon()]; }
+    public function monsters(): array { return [new Bouftou()]; }
     public function name(): string { return "royaume de bretagne"; }
     public function description(): string { return "1 chateau, 3 maisons"; }
     public function position(): Position { return new Position(0,0); }
