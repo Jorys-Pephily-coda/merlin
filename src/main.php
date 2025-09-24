@@ -27,8 +27,8 @@ $map->configuration([
     'navigation' => true,
     'map_enable' => true,
     'compass_enable' => true,
-    'x_start' => 0,
-    'y_start' => 0,
+    'x_start' => 1,
+    'y_start' => 1,
 ]); 
 
 $staurie->register([Console::class, PrettyPrinter::class, Menu::class]);

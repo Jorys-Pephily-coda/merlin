@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Items;
+namespace Mon\Namespace\Items;
 
 use Jugid\Staurie\Game\Item_Equippable;
 
