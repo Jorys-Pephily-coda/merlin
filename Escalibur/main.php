@@ -14,7 +14,7 @@ use Merlin\Staurie;
 
 require __DIR__.'/../vendor/autoload.php';
 
-$staurie = new Staurie('Example lands');
+$staurie = new Staurie('Excalibur');
 $staurie->register([
     Console::class, 
     PrettyPrinter::class, 
@@ -27,10 +27,10 @@ $container = $staurie->getContainer();
 
 $menu = $container->registerComponent(Menu::class);
 $menu->configuration([
-    'text'=> 'Welcome to this awesome test adventure',
+    'text'=> "Bienvenue dans le monde d'Excalibur",
     'labels'=> [
-        'new_game' => 'Enter the world',
-        'quit'=> 'Exit game',
+        'new_game' => 'Commencer une nouvelle quête',
+        'quit'=> 'quitter',
     ]
 ]);
 
@@ -56,10 +56,10 @@ $map->configuration([
 $introduction = $container->registerComponent(Introduction::class);
 $introduction->configuration([
     'text'=>[
-        'This is an introduction to test the introduction component',
-        'You can use it multiline by using an array in configuration'
+        'Partez à la recherche du mythique Graal',
+        "Combattez des monstres et équipez vous d'objets magiques",
     ],
-    'title'=>'Chapter 1 : The new game',
+    'title'=>'Excalibure',
     'scrolling'=>false
 ]);
 
