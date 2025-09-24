@@ -50,14 +50,16 @@ class Race extends AbstractComponent {
 
     private function view() {
         $pp = $this->container->getPrettyPrinter();
-        $pp->writeLn('Race : ' . $this->chosen_race->description());
+        if($this->chosen_race !== null){
+            $pp->writeLn('Race : ' . $this->chosen_race->description());
+        }
     }
 
     private function ask() {
         $pp = $this->container->getPrettyPrinter();
         $print_race = [];
-        foreach($this->config['races'] as $race) {
-            $print_race[] = [$race->name(), $race->description()];
+        foreach($this->config['races'] as $raceName => $race) {
+            $print_race[] = [$raceName, $race->description()];
         }
 
         $pp->writeTable(
@@ -69,7 +71,8 @@ class Race extends AbstractComponent {
             $choice = readline('Race name >> ');
             if(isset($this->config['races'][$choice])) {
                 $this->chosen_race = $this->config['races'][$choice];
-              //  $pp->writeLn('Race ' . $race->name() . ' chosen', 'green');
+                $this->container->getComponent('character')->config['race'] = $choice;
+                $pp->writeLn('Race ' . $choice . ' chosen', 'green');
             }
         }
     }
