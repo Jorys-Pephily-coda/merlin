@@ -313,6 +313,11 @@ class MainCharacter extends AbstractComponent {
                     $pp->writeLn("$monster_name attacks. You loose $monster_damages", 'red');
                     break;
                 case '2':
+                    if ($this->container->getMap()->current_position->isSame(new Position(0, 3))) {                        $pp->writeLn('Vous essayez d\'arrêter de tomber...', null, 'red');
+                        $pp->writeLn('Impossible de fuir le gouffre !', null, 'red');
+
+                        break;
+                    }
                     $health_diff = $this->statistics->value($fight_config['health']) / 2;
                     $this->statistics->sub($fight_config['health'], $health_diff);
                     $pp->writeLn("You choose to escape, loosing 50% of your current health ($health_diff).", 'red');
