@@ -69,7 +69,7 @@ class Race extends AbstractComponent {
             $choice = readline('Race name >> ');
             if(isset($this->config['races'][$choice])) {
                 $this->chosen_race = $this->config['races'][$choice];
-                $pp->writeLn('Race ' . $race->name() . ' chosen', 'green');
+              //  $pp->writeLn('Race ' . $race->name() . ' chosen', 'green');
             }
         }
     }
@@ -78,7 +78,8 @@ class Race extends AbstractComponent {
         return [
             'races'=>[
                 'Human' => new Human(),
-                'Magus' => new Magus()
+                'Magus' => new Magus(),
+                'Troll' => new Troll()
             ]
         ];
     }
