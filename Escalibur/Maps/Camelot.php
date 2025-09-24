@@ -3,13 +3,14 @@
 namespace Merlin\Escalibur\Maps;
 
 use Merlin\Component\Map\Blueprint;
+use Merlin\Escalibur\Npcs\Chevalier;
 use Merlin\Game\Position\Position;
 use Merlin\Escalibur\Items\Grimoire;
 use Merlin\Escalibur\Npcs\VielHomme;
 
 class Camelot extends Blueprint {
 
-    public function npcs(): array { return [new VielHomme()]; }
+    public function npcs(): array { return [new VielHomme(), new Chevalier()]; }
     public function items(): array { return [new Grimoire()]; }
     public function monsters(): array { return []; }
     public function name(): string { return "Camelot"; }
