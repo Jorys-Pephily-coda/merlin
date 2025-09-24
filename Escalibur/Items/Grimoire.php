@@ -18,6 +18,6 @@ class Grimoire extends Item_Equippable {
   }
 
   public function statistics(): array {
-    return ["attack" => 10];
+    return ["ability" => 10];
   }
 }

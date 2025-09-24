@@ -18,6 +18,6 @@ class Arc extends Item_Equippable {
   }
 
   public function statistics(): array {
-    return ["attack" => 5];
+    return ["ability" => 5];
   }
 }

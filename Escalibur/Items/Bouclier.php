@@ -18,6 +18,6 @@ class Bouclier extends Item_Equippable {
   }
 
   public function statistics(): array {
-    return ["def" => 5];
+    return ["defense" => 5];
   }
 }
