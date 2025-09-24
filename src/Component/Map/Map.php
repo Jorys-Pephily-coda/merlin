@@ -165,7 +165,6 @@ class Map extends AbstractComponent {
         $previousPosition = clone $this->current_position;
         $go_function = 'go'. ucfirst($direction);
         $this->current_position->$go_function();
-        print($this->current_position);
         $this->view();
 
         if(null === $this->getBlueprint($this->current_position)) {
