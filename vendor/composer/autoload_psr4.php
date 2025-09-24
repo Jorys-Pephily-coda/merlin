@@ -7,7 +7,10 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Symfony\\Component\\Finder\\' => array($vendorDir . '/symfony/finder'),
+    'Mon\\Namespace\\Npcs\\' => array($baseDir . '/src/npcs'),
+    'Mon\\Namespace\\Monsters\\' => array($baseDir . '/src/monsters'),
     'Mon\\Namespace\\Maps\\' => array($baseDir . '/src/maps'),
+    'Mon\\Namespace\\Items\\' => array($baseDir . '/src/items'),
     'Jugid\\Staurie\\Example\\' => array($vendorDir . '/jugid/staurie/example'),
     'Jugid\\Staurie\\' => array($vendorDir . '/jugid/staurie/src'),
     'Jorys\\Merlin\\' => array($baseDir . '/src'),

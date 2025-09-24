@@ -7,7 +7,10 @@
     "autoload": {
         "psr-4": {
             "Jorys\\Merlin\\": "src/",
-            "Mon\\Namespace\\Maps\\": "src/maps/"
+            "Mon\\Namespace\\Maps\\": "src/maps/",
+            "Mon\\Namespace\\Monsters\\": "src/monsters/",
+            "Mon\\Namespace\\Npcs\\": "src/npcs/",
+            "Mon\\Namespace\\Items\\": "src/items/"
 
         }
     },

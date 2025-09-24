@@ -13,7 +13,10 @@ class ComposerStaticInita6617f5563c12f666bb61cf370b37557
         ),
         'M' => 
         array (
+            'Mon\\Namespace\\Npcs\\' => 19,
+            'Mon\\Namespace\\Monsters\\' => 23,
             'Mon\\Namespace\\Maps\\' => 19,
+            'Mon\\Namespace\\Items\\' => 20,
         ),
         'J' => 
         array (
@@ -28,9 +31,21 @@ class ComposerStaticInita6617f5563c12f666bb61cf370b37557
         array (
             0 => __DIR__ . '/..' . '/symfony/finder',
         ),
+        'Mon\\Namespace\\Npcs\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/npcs',
+        ),
+        'Mon\\Namespace\\Monsters\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/monsters',
+        ),
         'Mon\\Namespace\\Maps\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/maps',
+        ),
+        'Mon\\Namespace\\Items\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/items',
         ),
         'Jugid\\Staurie\\Example\\' => 
         array (
