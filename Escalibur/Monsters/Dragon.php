@@ -27,7 +27,7 @@ class Dragon extends Monster {
     }
 
     public function attack(): int {
-        return 70;
+        return 20;
     }
 
     public function experience(): int {
